@@ -1,0 +1,106 @@
+main{
+  height: 100%;
+  margin-top: 10%;
+}
+.body {
+	box-sizing: border-box;
+	outline: none;
+	height: 100%;
+}
+.game-title {
+	display: block;
+	margin-bottom: 30px;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+}
+.game {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 156px;
+	height: 154px;
+	margin-left: calc(50% - 75px);
+	border: 1px solid #000;
+	margin-bottom: 20px;
+}
+.game-item {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	line-height: 48px;
+	border: 1px, solid, #000;
+	cursor: pointer;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	transition: linear 0.3s;
+}
+.game-item:hover {
+	background-color: rgba(211, 187, 80, 0.877);
+}
+.o {
+	background-color: #abfdab;
+}
+.x {
+	background-color: #ff9999;
+}
+#reset-game {
+	display: block;
+	margin: 0 auto;
+	border: 1px solid #000;
+	border-radius: 20px;
+	background-color: #fff;
+	padding: 10px 20px;
+	cursor: pointer;
+	transition: linear 0.3s;
+	width: 200px;
+	text-align: center;
+	font-weight: bold;
+}
+.footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+	background-color: black;
+	min-height: 80px;
+}
+.github-username {
+	color: white;
+	text-decoration: none;
+	padding: 0 20px;
+	transition: 0.3s;
+	display: block;
+}
+.github-username:hover {
+	color: hsl(45, 31%, 63%);
+}
+.footer-data {
+	display: flex;
+	align-items: center;
+}
+.copyright {
+	padding-right: 20px;
+	display: block;
+	color: white;
+}
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 5px 20px;
+	font-size: 20px;
+}
+.year {
+	display: block;
+	color: white;
+}
+.rss-logo {
+	transition: 0.3s;
+}
+.rss-logo:hover path {
+	fill: hsl(45, 31%, 63%);
+}
